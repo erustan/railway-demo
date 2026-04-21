@@ -1,13 +1,6 @@
 @app.route('/')
-
 def home():
-
-    return '''
-
-    <h1>🚀 Демо Railway Деплоймента</h1>
-
-    <p>Задеплоено автоматически из GitHub!</p>
-
-    <p>Каждый git push запускает автоматический деплой ✨</p>
-
-    '''
+    return """
+    <h1>Railway Demo</h1>
+    <p>Deployed from GitHub!</p>
+    """
